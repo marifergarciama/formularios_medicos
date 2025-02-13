@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Formulario de Especialidades Médicas</title> 
+        <link rel="stylesheet" href="formularios.css">
+     </head> 
+     
+     <body>
+         <h1>Formulario de Especialidades Médicas</h1> 
+         <form action="https://formsubmit.co/tucorreo@example.com" method="POST">
+             <label for="nombre">Nombre Completo:</label><br> 
+             <input type="text" id="nombre" name="nombre" required><br><br> 
+             <label for="correo">Correo Electrónico:</label><br> 
+             <input type="email" id="correo" name="correo" required><br><br> 
+             <label for="telefono">Teléfono:</label><br> <input type="tel" id="telefono" name="telefono" required><br><br> 
+             <label for="especialidad">Especialidad Médica:</label><br> 
+        <select id="especialidad" name="especialidad">
+            <option value="cardiologia">Cardiología</option> 
+            <option value="dermatologia">Dermatología</option> 
+            <option value="ginecologia">Ginecología</option> 
+            <option value="pediatria">Pediatría</option> 
+            <option value="traumatologia">Traumatología</option> 
+            <option value="neurologia">Neurología</option> 
+            <option value="odontologia">Odontología</option> 
+            <option value="oftalmologia">Oftalmología</option> 
+            <option value="medicina_general">Medicina General</option> 
+            <option value="otorrinolaringologia">Otorrinolaringología</option> 
+        </select>
+        <br><br> 
+        <label for="mensaje">Motivo de consulta:</label><br> 
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br> 
+        <input type="submit" value="Enviar"> 
+
+       <h4>María Fernanda García Maraveles 4°C</h4> 
+    </form> 
+    </body>
+    </html>
